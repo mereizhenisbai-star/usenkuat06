@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Қуат -- Презентация және Word жұмыстары</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #101828, #1d4ed8);
+    color: white;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 25px 15px;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 35px 10px;
+}
+
+.logo {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    font-size: 18px;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+/* PRICE */
+.price {
+    background: #22c55e;
+    padding: 18px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    box-shadow: 0 8px 25px rgba(0,0,0,.25);
+}
+
+/* SERVICES */
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.card {
+    background: rgba(255,255,255,.12);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,.2);
+    padding: 25px;
+    border-radius: 18px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: rgba(255,255,255,.18);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.card p {
+    color: #dbeafe;
+    line-height: 1.6;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    margin-top: 35px;
+    padding: 30px 20px;
+    background: rgba(0,0,0,.22);
+    border-radius: 20px;
+}
+
+.contact h2 {
+    margin-bottom: 10px;
+}
+
+.contact-text {
+    color: #dbeafe;
+    margin-bottom: 15px;
+}
+
+/* PHONE */
+.phone {
+    margin: 18px 0;
+}
+
+.phone a {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.phone a:hover {
+    text-decoration: underline;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    padding: 17px 30px;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: bold;
+    transition: .3s;
+    box-shadow: 0 7px 20px rgba(0,0,0,.25);
+}
+
+.whatsapp:hover {
+    transform: scale(1.05);
+}
+
+/* CALL BUTTON */
+.call {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 35px 10px;
+    opacity: .7;
+}
+
+/* MOBILE */
+@media(max-width:600px) {
+
+    h1 {
+        font-size: 27px;
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+    }
+
+    .logo {
+        font-size: 45px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+
+    .phone a {
+        font-size: 23px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+    <div class="logo">💻📚</div>
+
+    <h1>Презентация және Word жұмыстары</h1>
+
+    <p class="subtitle">
+        Оқу жұмыстарыңызды сапалы әрі әдемі етіп дайындауға көмектесемін!
+    </p>
+
+</header>
+
+
+<div class="price">
+    💰 Жұмыс бағасы -- 3000 ₸ бастап
+</div>
+
+
+<section class="services">
+
+    <div class="card">
+        <h3>📊 Презентация жасау</h3>
+        <p>
+            PowerPoint форматында заманауи,
+            түсінікті және әдемі презентациялар жасаймын.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>📝 Word жұмыстары</h3>
+        <p>
+            Word арқылы реферат, мәтін,
+            тапсырма және басқа да оқу жұмыстарын дайындауға көмектесемін.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🎨 Дизайн</h3>
+        <p>
+            Әдемі фондар, суреттер, тақырыптар
+            және заманауи безендірумен дайындауға көмектесемін.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>💻 HTML және веб-дизайн</h3>
+        <p>
+            HTML, веб-дизайн және басқа да
+            оқу тапсырларына көмектесемін.
+        </p>
+    </div>
+
+</section>
+
+
+<div class="contact">
+
+    <h2>📲 Тапсырыс беру</h2>
+
+    <p class="contact-text">
+        Жұмысқа тапсырыс беру үшін төмендегі байланыстардың бірін пайдаланыңыз.
+    </p>
+
+
+    <!-- НОМЕРДІ БАСҚАНДА ҚОҢЫРАУ -->
+    <div class="phone">
+
+        <a href="tel:+77474872006">
+            📞 +7 747 487 2006
+        </a>
+
+    </div>
+
+
+    <!-- WHATSAPP -->
+    <a class="whatsapp"
+       href="https://wa.me/77474872006?text=Сәлеметсіз%20бе!%20Жұмысқа%20тапсырыс%20бергім%20келеді."
+       target="_blank">
+
+        💬 WhatsApp арқылы жазу
+
+    </a>
+
+
+    <br>
+
+
+    <!-- ҚОҢЫРАУ БАТЫРМАСЫ -->
+    <a class="call"
+       href="tel:+77474872006">
+
+        📞 Қоңырау шалу
+
+    </a>
+
+</div>
+
+
+<footer>
+    © 2026 | Сапалы жұмыс -- тиімді баға
+</footer>
+
+</div>
+
+</body>
+</html>
